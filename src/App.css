@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+.nav {
+  position:fixed;/*va con top*/
+  top: 0px; /*va con fixed, ubicada parte superior de la páginaa 0px del borde*/
+  background-color: rgb(245, 245, 198);
+  width: 100%;/*todo el ancho de la ventana*/
+  display: flex; /*separa los textos*/
+  justify-content:space-around; /*separa y centra los textos*/
+  align-items: center;
+  min-height: 50px;  /*para que quede centrado*/
+  min-width: 600px;/*ancho mínimo aunque se modifique el tamaño de la ventana del navegador*/
+}
+
+.link{
+  text-decoration: none; /*sacar el subrayado de los links*/
+}
+
+.botonContador{
+  background-color: aquamarine;
+}
+
+.listadoPersonajes{
+  margin-top: 50px;
+  display: grid; /* va con grid-template-columns*/
+  grid-template-columns: 30% 30% 30%;/*va con display:grid, para q se vea en 3 columnas con separacion*/
+}
+
+.buscador{
+  display: grid; 
+  grid-template-columns: 50% 50%;
+}
